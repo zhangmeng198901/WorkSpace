@@ -1,0 +1,215 @@
+/*编辑区域*/
+.editArea {
+    width: 100%;
+}
+
+.editArea input[type=text],.editArea input[type=password],.editArea select,.editArea textarea,.editArea .input-box {
+    width: 80%;
+    height: 24px;
+    border: 1px solid #e1e1e1;
+    color: #666;
+    padding-left: 3px;
+    vertical-align: middle;
+    margin-top:3px;
+    margin-bottom:3px;
+}
+/*.editArea input[type=text],.editArea input[type=password],.editArea select,.editArea textarea,.editArea .input-box {
+    width: 80%;
+    height: 30px;
+    border: 1px solid rgb(204,204,204);
+    border-radius: 3px;
+    box-shadow:inset 0px 1px 1px #CCC;
+    box-sizing: border-box;
+    color: #555;
+    cursor: auto;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 5px 10px;
+    margin: 0px;
+    transition-delay: 0s,0s;
+    transition-duration: 0.15s,0.15s;
+    transition-property: border-color,box-shadow;
+    transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+    vertical-align: middle;
+    background-color: rgb(255,255,255);
+    background-image: none;
+}*/
+.editArea input[type=text]:focus,.editArea input[type=password]:focus,.editArea select:focus,.editArea textarea:focus,.editArea .input-box:focus {
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.6);
+}
+.editArea input[type=text][readonly],.editArea input[type=password][readonly],.editArea select[readonly],.editArea textarea[readonly],.editArea .input-box[readonly] {
+    background-color: #eee;
+    cursor: not-allowed;
+}
+.editArea input[type=text][disabled],.editArea input[type=password][disabled],.editArea select[disabled],.editArea textarea[disabled],.editArea .input-box[disabled] {
+    background-color: #ddd;
+    cursor: not-allowed;
+}
+.editArea textarea{
+    height: auto;
+}
+.editArea table textarea{
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.table-title{
+    width: 100%;
+    height: 34px;
+    padding: 0 0 0 10px;
+    font-weight: bold;
+    text-align: left;
+    vertical-align: middle;
+    border-top: 1px solid #DCE9F5;
+    border-left: 1px solid #dce9f5;
+    border-right: 1px solid #dce9f5;
+    line-height: 34px;
+    background: #FAFAFA;
+}
+/*----------------------------------------------详情信息表格----------------------------------------------------------*/
+table.details-layout {
+    border-left: 1px solid #dce9f5;
+    border-top: 1px solid #dce9f5;
+	width: 100%;
+}
+
+/*详情信息表格 字段标题*/
+table.details-layout th {
+    height:34px;
+    font-size:14px;
+    padding-left: 6px;
+    background: #FAFAFA;
+    border-right: 1px solid #dce9f5;
+    border-bottom: 1px solid #dce9f5;
+    text-align: right;
+    font-weight: normal;
+}
+
+/*详情信息表格 字段标题重要标记*/
+table.details-layout th span {
+    color: #f00;
+    font-family: "宋体";
+    padding-right: 5px;
+}
+
+/*详情表格 字段值*/
+table.details-layout td {
+   	height:34px;
+    font-size:14px;
+    padding-left: 6px;
+    border-right: 1px solid #dce9f5;
+    border-bottom: 1px solid #dce9f5;
+    text-align: left;
+}
+
+table.details-layout tr .col1{
+    width: 18%;
+}
+
+table.details-layout tr .col2{
+    width: 32%;
+}
+
+table.details-layout tr .col3{
+    width: 15%;
+}
+
+table.details-layout tr .col4{
+    width: 35%;
+}
+
+
+table.details-layout.not-bordered{
+    border: none;
+}
+
+table.details-layout.not-bordered th,table.details-layout.not-bordered td{
+    border: none;
+}
+table.details-layout.not-bordered th{
+    background-color: inherit;
+}
+
+table.details-layout.col4 tr>:nth-child(1){
+    width: 16%;
+}
+
+table.details-layout.col4 tr>:nth-child(2){
+    width: 34%;
+}
+
+table.details-layout.col4 tr>:nth-child(3){
+    width: 15%;
+}
+
+table.details-layout.col4 tr>:nth-child(4){
+    width: 35%;
+}
+
+table.details-layout.col6 tr>:nth-child(1){
+    width: 16%;
+}
+
+table.details-layout.col6 tr>:nth-child(2){
+    width: 18%;
+}
+
+table.details-layout.col6 tr>:nth-child(3){
+    width: 15%;
+}
+
+table.details-layout.col6 tr>:nth-child(4){
+    width: 18%;
+}
+
+table.details-layout.col6 tr>:nth-child(5){
+    width: 15%;
+}
+
+table.details-layout.col6 tr>:nth-child(6){
+    width: 18%;
+}
+/*---------------------------------------------列表信息表格-----------------------------------------------------------*/
+table.list-layout {
+   	border-left: 1px solid #dce9f5;
+    border-top: 1px solid #dce9f5;
+    margin: 0;
+    padding: 0;
+	width: 100%;
+	border-spacing:0;
+}
+
+/*列表信息表格 字段标题*/
+table.list-layout th {
+    border-right: 1px solid #dce9f5;
+    border-bottom: 1px solid #dce9f5;
+    background: rgb(250,250,250);
+    text-align: center;
+    height:34px;
+    font-size:14px;
+    font-weight: normal;
+}
+
+/*字段标题重要标记*/
+table.list-layout th span {
+    color: #f00;
+    font-family: "宋体";
+    padding-right: 5px;
+}
+
+/*列表信息表格 字段值*/
+table.list-layout td {
+    border-right: 1px solid #dce9f5;
+    border-bottom: 1px solid #dce9f5;
+    text-align: center;
+    height:34px;
+    font-size:14px;
+}
+
+table.details-layout .btn,table.list-layout .btn{
+    padding: 3px 6px;
+}

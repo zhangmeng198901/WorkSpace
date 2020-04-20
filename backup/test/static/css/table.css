@@ -1,0 +1,106 @@
+/*编辑区域*/
+.editArea {
+    width: 100%;
+}
+
+.editArea input[type=text],input[type=password],.editArea select,.editArea textarea,.editArea .input-box {
+    width: 80%;
+    height: 24px;
+    border: 1px solid #e1e1e1;
+    color: #666;
+    padding-left: 3px;
+    vertical-align: middle;
+    margin-top:3px;
+    margin-bottom:3px;
+}
+.editArea textarea{
+    height: auto;
+}
+.editArea table textarea{
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+/*----------------------------------------------详情信息表格----------------------------------------------------------*/
+table.details-layout {
+    border-left: 1px solid #dce9f5;
+    border-top: 1px solid #dce9f5;
+	width: 100%;
+}
+
+/*详情信息表格 字段标题*/
+table.details-layout th {
+    height:34px;
+    font-size:14px;
+    padding-left: 6px;
+    background: #FAFAFA;
+    border-right: 1px solid #dce9f5;
+    border-bottom: 1px solid #dce9f5;
+    text-align: right;
+    font-weight: normal;
+}
+
+/*详情信息表格 字段标题重要标记*/
+table.details-layout th span {
+    color: #f00;
+    font-family: "宋体";
+    padding-right: 5px;
+}
+
+/*详情表格 字段值*/
+table.details-layout td {
+   	height:34px;
+    font-size:14px;
+    padding-left: 6px;
+    border-right: 1px solid #dce9f5;
+    border-bottom: 1px solid #dce9f5;
+    text-align: left;
+}
+
+table.details-layout tr .col1{
+    width: 18%;
+}
+
+table.details-layout tr .col2{
+    width: 32%;
+}
+
+table.details-layout tr .col3{
+    width: 15%;
+}
+
+table.details-layout tr .col4{
+    width: 35%;
+}
+
+/*---------------------------------------------列表信息表格-----------------------------------------------------------*/
+table.list-layout {
+    border: 1px solid #dce9f5;
+    margin: 0;
+    padding: 0;
+	width: 100%;
+}
+
+/*列表信息表格 字段标题*/
+table.list-layout th {
+    border: 1px solid #dce9f5;
+    background: rgb(250,250,250);
+    text-align: center;
+    height:34px;
+    font-size:14px;
+    font-weight: normal;
+}
+
+/*字段标题重要标记*/
+table.list-layout th span {
+    color: #f00;
+    font-family: "宋体";
+    padding-right: 5px;
+}
+
+/*列表信息表格 字段值*/
+table.list-layout td {
+    border: 1px solid #dce9f5;
+    text-align: center;
+    height:34px;
+    font-size:14px;
+}

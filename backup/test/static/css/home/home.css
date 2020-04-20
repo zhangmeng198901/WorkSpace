@@ -1,0 +1,185 @@
+/*================
+首页内容
+======================*/
+.homepage-main {
+    background-color: #fff;
+    padding: 0 8% 10px;
+}
+
+.infor-msg {
+    float: left;
+    width: 55%;
+}
+
+.infor-msg > img {
+    width: 160px;
+}
+
+/*.infor-msg >ul{border: solid #999 1px;border-radius: 5px;}*/
+.infor-msg > ul li {
+    float: left;
+    width: 25%;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+.homepageClickShow li:before {
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background-color: #999;
+    border-radius: 50%;
+    margin: 14px 3px;
+}
+
+.homepageClickShow li p {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    color: #333333;
+    font-size: 14px;
+    line-height: 2.5;
+}
+
+.homepageClickShow li p label {
+    color: #999;
+    font-weight: 400;
+    padding: 0 20px;
+}
+
+.linkMore {
+    color: #0078ff;
+    font-size: 14px;
+    padding: 8px 16px;
+    border-radius: 50px;
+    border: solid 1px #0078ff;
+    float: right;
+    margin: 10px 0;
+}
+
+.linkMore i {
+    margin-left: 2px;
+}
+
+.linkNav li {
+    cursor: pointer;
+}
+
+.homepageClickShow {
+    display: none;
+}
+
+/*.infor-msg >ul{border: solid #999 1px;border-radius: 5px;}
+.infor-msg >ul li{float: left;width: 25%;text-align: center;font-size: 18px;padding: 10px 0;border-right: solid 1px #999;}
+.infor-msg >ul li:last-child{border-right: none;}*/
+
+.linkNav li:nth-child(1) {
+    border: solid 1px #ddd;
+    border-radius: 5px 0 0 5px;
+    border-right: none;
+}
+
+.linkNav li:nth-child(2) {
+    border: solid 1px #ddd;
+    border-right: none;
+}
+
+.linkNav li:nth-child(3) {
+    border: solid 1px #ddd;
+    border-right: none;
+}
+
+.linkNav li:nth-child(4) {
+    border: solid 1px #ddd;
+    border-radius: 0 5px 5px 0;
+    border-right: solid 1px #ddd;
+}
+
+.linkNav li.linkNavClick:nth-child(1) {
+    border: solid 1px #0078ff;
+    border-radius: 5px 0 0 5px
+}
+
+.linkNav li.linkNavClick:nth-child(2) {
+    border: solid 1px #0078ff;
+}
+
+.linkNav li.linkNavClick:nth-child(3) {
+    border: solid 1px #0078ff;
+}
+
+.linkNav li.linkNavClick:nth-child(4) {
+    border: solid 1px #0078ff;
+    border-radius: 0 5px 5px 0;
+}
+
+.linkNavClick {
+    color: #0078ff;
+}
+
+.union-product {
+    width: 35%;
+    float: right;
+}
+
+.union-product > img {
+    width: 160px;
+}
+
+.product-link {
+    background-color: #f9f9f9;
+}
+
+.product-link > img {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    padding: 20px 15px 0;
+}
+
+.product-link p {
+    font-size: 14px;
+    color: #222;
+    text-indent: 20px;
+    padding: 5px 15px;
+}
+
+.plate-enter {
+    width: 100%;
+    background-color: #f9f9f9;
+    padding: 0 8% 10px;
+}
+
+.plate-enter > img {
+    width: 160px;
+}
+
+.plate-enter ul li {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+
+.plate-enter ul li img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.plate-enter ul li .logo-tip {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    padding-left: 8px;
+}
+
+.logo-tip p {
+    font-size: 16px;
+    color: #999;
+}
+
+.logo-tip h2 {
+    font-size: 20px;
+    color: #333;
+}

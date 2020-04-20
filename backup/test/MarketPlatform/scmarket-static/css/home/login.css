@@ -1,0 +1,134 @@
+.login-content{
+    width: 100%;
+    position: relative;
+}
+
+.login-content > img {
+    width: 100%;
+    position: absolute;
+}
+
+.login {
+    position: absolute;
+    width: 350px;
+    top: 120px;
+    right: 18%;
+}
+
+.login ul {
+    background-color: #e1e1e1;
+}
+
+.login li {
+    float: left;
+    width: 50%;
+    text-align: center;
+    padding: 10px 20px;
+    border: solid 1px #c6c6c6;
+    border-top: none;
+    cursor: pointer;
+}
+
+.show {
+    display: block;
+}
+
+.loginShow {
+    display: none;
+    background-color: #f1f0f0;
+    /*text-align: center;*/
+    padding: 22px 25px;
+}
+
+.login-click {
+    background-color: #f0efef;
+    color: #00457c;
+    border: none !important;
+}
+
+.loginShow input {
+    background-color: #fff;
+    width: 100%;
+    border: solid 1px #ccc;
+    padding: 11px 10px 11px 45px;
+}
+
+.input-code:before {
+    width: 31px;
+    height: 31px;
+    background: url("../../images/unionpay/icon-person.png") no-repeat center center;
+    position: absolute;
+    content: '';
+    background-size: 100%;
+    margin-top: 3px;
+    margin-left: 2px;
+}
+
+.input-password:before {
+    width: 31px;
+    height: 31px;
+    background: url("../../images/unionpay/icon-lock.png") no-repeat center center;
+    position: absolute;
+    content: '';
+    background-size: 100%;
+    margin-top: 13px;
+    margin-left: 2px;
+}
+
+.input-tel:before {
+    width: 31px;
+    height: 31px;
+    background: url("../../images/unionpay/icon-edit.png") no-repeat center center;
+    position: absolute;
+    content: '';
+    background-size: 100%;
+    margin-top: 14px;
+    margin-left: 4px;
+}
+
+.input-tel {
+    width: 220px;
+
+}
+.input-tel input {
+    width: 150px;
+}
+
+.input-tel img {
+    position: absolute;
+    /*width: 75px;*/
+    /*right: 25px;*/
+    left:185px;
+    margin-top: 14px;
+}
+
+.input-tel a {
+    position: absolute;
+    right: 10px;
+    margin-top: 18px;
+}
+
+.forgot-psw, .register-link {
+    text-align: right;
+    color: #00457c;
+
+}
+
+.forgot-psw a, .register-link a {
+    color: #00457c;
+    font-weight: 400 !important;
+    text-decoration: none;
+    cursor: pointer;
+}
+.forgot-psw :nth-child(2){
+    margin-left: 15px;
+}
+.loginShow input.btn-getPwd{width: 45%;color: #fff;background-color: #00457c;padding: 11px 10px;border-radius: 5px;}
+
+.btn-login{display: block;margin: 15px auto; text-align: center}
+.btn-login button{color: #fff;width: 90%;background-color: #00457c;padding: 11px 10px;border-radius: 5px;}
+label{font-weight: 400;margin: 0;}
+
+.input-code,.input-password,.input-tel {
+    margin-top:15px;
+}

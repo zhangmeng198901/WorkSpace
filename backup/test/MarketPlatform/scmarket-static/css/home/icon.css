@@ -1,0 +1,26 @@
+.icon-top-logo{display:inline-block;vertical-align: middle;background: url("../../images/unionpay/icon-unionPay.png") no-repeat center center;width: 212px;height: 80px;margin-left: 8%;}
+.icon-person{display: inline-block;vertical-align: middle;background: url("../../images/unionpay/icon-person01.png") no-repeat center center;width: 16px;height: 17px;background-size: 100%;}
+.icon-edit{display: inline-block;vertical-align: middle;background: url("../../images/unionpay/icon-edit.png") no-repeat center center;width: 32px;height: 32px;background-size: 100%;}
+.icon-arrow-right{display: inline-block;vertical-align: baseline;background: url("../../images/unionpay/icon-arrow-right.png") no-repeat center center;background-size: 100%;width: 12px;height: 12px;}
+
+.icon-user{background: url("../../images/unionpay/icon-user.png") no-repeat center center;width: 15px;height: 15px;}
+.icon-base-msg{background: url("../../images/unionpay/icon-base-msg.png") no-repeat top center;width: 16px;height: 12px;}
+/*.icon-psw{}*/
+
+.icon{display: inline-block;vertical-align: middle;}
+.icon-buyFile{background: url("../../images/unionpay/icon/icon-buyFile.png") no-repeat center center;width: 29px;height: 26px;}
+.icon-canshen{background: url("../../images/unionpay/icon/icon-canshen.png") no-repeat center center;width: 29px;height: 27px;}
+.icon-jobPlate{background: url("../../images/unionpay/icon/icon-jobPlate.png") no-repeat center center;width: 29px;height: 24px}
+.icon-myContract{background: url("../../images/unionpay/icon/icon-myContract.png") no-repeat center center;width: 29px;height: 26px;}
+.icon-requestBack{background: url("../../images/unionpay/icon/icon-requestBack.png") no-repeat center center;width: 29px;height: 27px;}
+.icon-tradeManage{background: url("../../images/unionpay/icon/icon-tradeManage.png") no-repeat center center;width: 29px;height: 28px;}
+
+
+.icon-ready-msg{background: url("../../images/unionpay/icon/icon-ready-msg.png") no-repeat center center;width: 28px;height: 28px;}
+.icon-calcu-msg{background: url("../../images/unionpay/icon/icon-calcu-msg.png") no-repeat center center;width: 28px;height: 28px;}
+.icon-publicity{background: url("../../images/unionpay/icon/icon-publicity.png") no-repeat center center;width: 28px;height: 28px;}
+.icon-tip{background: url("../../images/unionpay/icon/icon-tip.png") no-repeat center center;width: 28px;height: 28px;}
+
+.icon-tip-up{background: url("../../images/unionpay/icon/icon-tip-up.png") no-repeat center center;width: 32px;height: 27px;}
+.icon-buy{background: url("../../images/unionpay/icon/icon-buy.png") no-repeat center center;width: 32px;height: 27px;}
+.icon-new{background: url("../../images/unionpay/icon/icon-new.png") no-repeat center center;width: 32px;height: 27px;}

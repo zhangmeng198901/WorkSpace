@@ -1,0 +1,100 @@
+header {
+    height: 100px;
+    /*line-height: 100px;*/
+    margin: 0;
+    background-color: #fff;
+    padding: 10px 0px;
+}
+
+header > p {
+    display: inline-block;
+    vertical-align: middle;
+    border-left: solid #dedede 2px;
+    font-size: 32px;
+    font-weight: bold;
+    color: #4B4948;
+    padding-left: 15px;
+    margin-left: 15px;
+    height: 60px;
+    line-height: 60px;
+}
+
+header a {
+    float: right;
+    cursor: pointer;
+}
+
+/*首页微信二维码*/
+.top-Dcode {
+    float: right;
+    height: 80px;
+    line-height: 80px;
+    padding: 0px;
+    margin-right: 8%;
+}
+
+.top-Dcode img {
+    height: 80px;
+}
+
+.header-backstage {
+    font-size: 16px;
+    color: #333;
+    position: absolute;
+    right: 40px;
+    top:50px;
+    padding-bottom: 16px;
+}
+
+.header-backstage p {
+    float: right;
+}
+
+.header-backstage > label {
+    margin-right: 15px;
+}
+
+.top-link font {
+    margin: 0;
+    cursor: pointer;
+}
+
+.top-link label {
+    margin-right: 15px
+}
+
+.top-link-content {
+    background-color: #fff;
+    position: absolute;
+    display: none;
+    right: 0px;
+    margin-top: 20px;
+    z-index: 10;
+}
+
+.top-link-content li {
+    width: 120px;
+    font-size: 12px;
+    color: #999;
+    border: solid #dfdfdf 1px;
+    border-bottom: none;
+    height: 35px;
+    line-height: 36px;
+}
+
+.top-link-content li:last-child {
+    border-bottom: solid #dfdfdf 1px;
+}
+
+.top-link-content li i {
+    margin: 0 15px 0 20px;
+}
+
+.top-link-content li:hover {
+    color: #fff !important;
+    background-color: #50aeee;
+}
+
+.header-backstage:hover .top-link-content {
+    display: block;
+}
